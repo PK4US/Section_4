@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyApp_9</string>
+    <string name="Voiyti">Войти</string>
+    <string name="Pochta">Почта</string>
+    <string name="pass">Пароль</string>
+    <string name="registration">Регистрация</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="pass2">Повторите Пароль</string>
+    <string name="but_reg">Зарегестирироватся</string>
+    <string name="djqregr">djqregr</string>
+</resources>

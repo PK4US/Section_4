@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/Voyti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="35sp"
+            android:layout_margin="10dp"
+            android:text="@string/Voiyti"/>
+
+        <EditText
+            android:id="@+id/mail2"
+            android:hint="@string/Pochta"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/Voyti"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/pass3"
+            android:hint="@string/pass"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/mail2"
+            android:ems="9" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/registrasia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_centerHorizontal="true"
+            android:text="@string/registration"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:hint="@string/name"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/registrasia"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/familia"
+            android:hint="@string/surname"
+            android:gravity="center"        android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/name"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/mail"
+            android:hint="@string/Pochta"
+            android:gravity="center"        android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/familia"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:hint="@string/pass"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/mail"
+            android:ems="9" />
+
+        <EditText
+            android:id="@+id/pass2"
+            android:hint="@string/pass2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBaseline="@id/pass"
+            android:ems="9" />
+
+        <Button
+            android:id="@+id/butreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pass2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/but_reg"/>
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
